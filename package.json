@@ -72,7 +72,7 @@
   "description": "High performance Stratum poolserver in Node.js",
   "devDependencies": {},
   "engines": {
-    "node": ">=0.10.25"
+    "node": ">=4.2.6"
   },
   "gitHead": "532f9c264650a3f4154a19f479d336e837ef4f1c",
   "homepage": "https://github.com/tedy5/stratum-pool",
