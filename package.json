@@ -67,7 +67,7 @@
     "async": "^2.5.0",
     "base58-native": "^0.1.4",
     "bignum": "0.13.0",
-    "multi-hashing": "git://github.com/tedy5/node-multi-hashing.git"
+    "multi-hashing": "git+https://22ca885e5a88878af33c558b157bfc4d98d5cef5:x-oauth-basic@github.com/tedy5/node-multi-hashing.git"
   },
   "description": "High performance Stratum poolserver in Node.js",
   "devDependencies": {},
