@@ -1,100 +1,29 @@
 {
-  "_args": [
-    [
-      "stratum-pool@git://github.com/tedy5/stratum-pool.git",
-      "/root/unomp"
-    ]
-  ],
-  "_from": "git://github.com/tedy5/stratum-pool.git",
-  "_id": "stratum-pool@1.0.8",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/stratum-pool",
-  "_phantomChildren": {
-    "lodash": "4.17.10",
-    "nan": "2.11.0",
-    "node-pre-gyp": "0.6.39"
+  "name": "unomp-stratum-pool",
+  "version": "1.0.0",
+  "description": "Stratum pool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requested": {
-    "hosted": {
-      "directUrl": "https://raw.githubusercontent.com/tedy5/stratum-pool/master/package.json",
-      "gitUrl": "git://github.com/tedy5/stratum-pool.git",
-      "httpsUrl": "git+https://github.com/tedy5/stratum-pool.git",
-      "shortcut": "github:tedy5/stratum-pool",
-      "ssh": "git@github.com:tedy5/stratum-pool.git",
-      "sshUrl": "git+ssh://git@github.com/tedy5/stratum-pool.git",
-      "type": "github"
-    },
-    "name": "stratum-pool",
-    "raw": "stratum-pool@git://github.com/tedy5/stratum-pool.git",
-    "rawSpec": "git://github.com/tedy5/stratum-pool.git",
-    "scope": null,
-    "spec": "git://github.com/tedy5/stratum-pool.git",
-    "type": "hosted"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git://github.com/foxer666/node-stratum-pool.git#532f9c264650a3f4154a19f479d336e837ef4f1c",
-  "_shasum": "06d76a2019e5705f0cdabb24a34e7bf4bffb67ad",
-  "_shrinkwrap": null,
-  "_spec": "stratum-pool@git://github.com/foxer666/node-stratum-pool.git",
-  "_where": "/root/unomp",
-  "author": {
-    "name": "Matthew Little"
-  },
-  "bugs": {
-    "url": "https://github.com/tedy5/stratum-pool/issues"
-  },
-  "contributors": [
-    {
-      "name": "devnulled"
-    },
-    {
-      "name": "foxer666"
-    },
-    {
-      "name": "vekexasia"
-    },
-    {
-      "name": "TheSeven"
-    },
-    {
-      "name": "Kris Klosterman"
-    }
-  ],
-  "dependencies": {
-    "async": "^2.5.0",
-    "base58-native": "^0.1.4",
-    "bignum": "0.13.0",
-    "multi-hashing": "git+https://22ca885e5a88878af33c558b157bfc4d98d5cef5:x-oauth-basic@github.com/tedy5/unomp-node-multi-hashing.git"
-  },
-  "description": "High performance Stratum poolserver in Node.js",
-  "devDependencies": {},
-  "engines": {
-    "node": ">=4.2.6"
-  },
-  "gitHead": "532f9c264650a3f4154a19f479d336e837ef4f1c",
-  "homepage": "https://github.com/tedy5/stratum-pool",
-  "keywords": [
-    "bitcoin",
-    "litecoin",
-    "mining",
-    "pool",
-    "poolserver",
-    "scrypt",
-    "server",
-    "stratum"
-  ],
-  "license": "GPL-2.0",
-  "main": "lib/index.js",
-  "name": "stratum-pool",
-  "optionalDependencies": {},
-  "readme": "High performance Stratum poolserver in Node.js for [NOMP (Node Open Mining Portal)](https://github.com/foxer666/node-open-mining-portal)\n\nCurrent version: v1.0.8",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tedy5/stratum-pool.git"
+    "url": "git+https://github.com/tedy5/unomp-stratum-pool.git"
   },
-  "version": "1.0.8"
+  "keywords": [
+    "stratum",
+    "pool"
+  ],
+  "author": "unknown",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/tedy5/unomp-stratum-pool/issues"
+  },
+  "homepage": "https://github.com/tedy5/unomp-stratum-pool#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "base58-native": "^0.1.4",
+    "bignum": "^0.13.1",
+    "multi-hashing": "git+https://github.com/tedy5/unomp-node-multi-hashing.git"
+  }
 }
